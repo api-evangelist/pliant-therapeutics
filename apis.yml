@@ -1,8 +1,28 @@
 aid: pliant-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pliant-therapeutics.png
 name: Pliant Therapeutics
-description: Pliant Therapeutics is a company surfaced as a portfolio company of menlo-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Pliant Therapeutics is a clinical-stage biopharmaceutical company focused on the
+  discovery and development of integrin-based therapies for underserved areas of
+  medical need. Leveraging a proprietary integrin drug discovery and delivery
+  platform, its lead program PLN-101095 is a dual-selective avb8/avb1 integrin
+  inhibitor being evaluated in the FORTIFY clinical trial for patients with advanced
+  or metastatic solid tumors, alongside additional pipeline programs in fibrosis and
+  oncology. The company was surfaced as a portfolio company of Menlo Ventures and
+  added to the API Evangelist network. As a clinical-stage pharmaceutical company,
+  Pliant Therapeutics publishes no public developer API, SDK, or API documentation
+  surface; this profile captures corporate identity and web presence only.
 url: https://raw.githubusercontent.com/api-evangelist/pliant-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +32,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biopharmaceutical
+- Pharmaceuticals
+- Biotechnology
+- Healthcare
+- Clinical Trials
+- Oncology
+- Drug Discovery
+- Life Sciences
 apis: []
+common:
+- type: DomainSecurity
+  url: security/pliant-therapeutics-domain-security.yml
+- type: Website
+  url: https://pliantrx.com
+- type: About
+  url: https://pliantrx.com/about/
+- type: Careers
+  url: https://pliantrx.com/careers/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
